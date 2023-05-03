@@ -1,0 +1,307 @@
+.pantalla{
+    width: 428px;
+    height: 926px;
+    background-color: whitesmoke;
+    margin:auto;
+    margin-top: 10rem;
+    border-radius: 1%;
+    position: relative;
+}
+.menu{
+    float: left;
+    margin-left: 1.8rem;
+    margin-top: 4.3rem;
+    width: 39rem;
+    height: 3.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1{
+    width: 2.4rem;
+    height: 2.4rem;
+    
+}
+.img2{
+    width: 3.4rem;
+}
+.titulo{
+    float: left;
+    width: 19.6rem;
+    height: 2.3rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    
+}
+.titulos{
+   
+    margin-left: -0.4rem;
+}
+.buscar{
+float: left;
+width: 31.6rem;
+height: 5rem;
+margin-left: 2rem;
+margin-top: 2.1rem;
+background: #FFFFFF;
+box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+font-size: 1.5rem;
+padding: 1.2rem;
+text-align: left;
+color: rgb(133, 130, 130);
+cursor:text;
+}
+.lupa{
+    background-color: #FF7A1A;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    box-shadow: 3px 3px 10px rgba(255, 145, 86, 0.2);
+    border-radius: 10px;
+    margin-top: 2.3rem;
+    margin-right: 2rem;
+    cursor:pointer ;
+}
+.img3{
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.contenedor{
+    
+    float: left;
+    width: 38.8rem;
+    height: 7rem;
+    margin-left: 2rem;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.imagenes{
+    cursor: pointer;
+}
+.tabla{
+    position: absolute;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.9rem;
+    width: 38.8rem;
+    height: 2.2rem;
+    margin-left: 2.1rem;
+    margin-top: -0.5rem;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.N{
+    
+    color: #FF7A1A;
+    font-size: 1.8rem;
+}
+.imagen_grande{
+    width: 33rem;
+    height: 41.1rem;
+    margin-top: 6.5rem;
+    margin-left: 5.3rem;
+}
+.letras_imagen{
+    width:31rem;
+    height: 9.83rem;
+    margin: auto;
+    margin-top: -12rem;
+    margin-left: 6rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(0 0, 0, 0) 20.98%, #000000 100%);
+    position: relative;
+    color: whitesmoke;
+}
+.titulo_imagen{
+    float: left;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.final{
+    width: 41rem;
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -2rem;
+}
+.zona{
+    font-size: 1.3rem;
+    float: left;
+    color: white;
+    margin-left: 8.5rem;
+    margin-top: -6rem;
+    position: absolute;
+}
+.item2{
+    width: 2rem;
+    height: 7.5rem;
+    margin-top: 8rem;
+    cursor: pointer;
+    font-size: 3rem;
+}   
+.img{
+    width: 2.8rem;
+    float: left;
+    position: absolute;
+    margin-left: 31.8rem;
+    margin-top: -5rem;
+}
+.imagenes2{
+    width: 2.5rem;
+}
+.imagen_link{
+    float: left;
+    margin-left: -0.10rem;
+    width: 42.8rem;
+    height: 61.2rem;
+}
+.boton{
+    position: absolute;
+    float: left;
+    width: 4.4rem;
+    display: flex;
+    margin-top: 2.8rem;
+    margin-left: 2.4rem;
+}
+.pantalla_baja{
+    width: 42.8rem;
+    height: 41.6rem;
+    position:absolute;
+    margin-top: 50rem;
+    border-radius: 40px 40px 0px 0px;
+    margin-left: -0.1rem;
+    background-color: whitesmoke;
+}
+.titulo2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: absolute;
+    line-height: 2.1rem;
+    margin-top: 54.4rem;
+    margin-left: 2rem;
+}
+.titulo3{
+    position: absolute;
+    margin-top: 57rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #828282;
+}
+.titulo4{
+    position: absolute;
+    margin-left: 35.4rem;
+    margin-top: 54.513rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #828282;
+}
+.titulo_4{
+    position: absolute;
+ width: 10rem;
+ height: 2rem;
+ margin-left: 28rem;
+ margin-top: 54.2rem;   
+ text-align: right;
+}   
+.titulo5{
+    position: absolute;
+    margin-top: 57.455rem;
+    margin-left: 35.1rem;
+    color: #FF7A1A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+}
+.titulo5 b{
+    color: black;
+}
+
+.texto{
+    justify-content: left;
+    width: 38.4rem;
+    height: 11.1rem;
+    position: absolute;
+    margin-top: 62rem;
+    margin-left: 2.3rem;
+    font-size: 1.27rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8rem;
+    color: #828282;
+    }
+.cuadros{
+    position: absolute;
+    width: 38.6rem;
+    height: 9rem;
+    margin-top: 74rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item4{
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.item4 h1{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.item2 p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.cuadro_final{
+    position: absolute;
+    background-color: #FF7A1A;
+    color: white;
+    box-shadow: 8px 8px 15px rgba(255, 122, 26, 0.2);
+    border-radius: 10px;
+    width: 38.7rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 84.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo_final{
+    margin-top:1.3rem;
+    font-size: 1.8rem;
+}
+.pantalla_2{
+    width: 428px;
+    height: 926px;
+    margin:auto;
+    margin-top: 10rem;
+    border-radius: 1%;
+    position: relative;
+}
